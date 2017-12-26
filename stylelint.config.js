@@ -2,8 +2,8 @@ module.exports = {
   processors: ['stylelint-processor-styled-components'],
   extends: [
     'stylelint-config-standard',
-    'stylelint-config-styled-components',
     'stylelint-config-idiomatic-order',
+    'stylelint-config-styled-components',
   ],
   syntax: 'scss',
 };
