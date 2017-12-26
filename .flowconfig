@@ -2,6 +2,7 @@
 
 [ignore]
 <PROJECT_ROOT>/.vscode/*
+<PROJECT_ROOT>/node_modules/styled-components/.*
 
 [libs]
 

@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['react-app', 'prettier', 'prettier/flowtype', 'prettier/react'],
-  plugins: ['jsx-a11y', 'prettier'],
+  plugins: ['jsx-a11y', 'flowtype', 'prettier'],
   rules: {
     'prettier/prettier': [
       2,
