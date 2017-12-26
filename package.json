@@ -1,0 +1,46 @@
+{
+  "name": "create-react-app-flow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "npm run lint:js && npm run lint:style",
+    "lint:js": "eslint .",
+    "lint:style": "stylelint *.*/*.js?x",
+    "type:clean": "rm -rf flow-typed",
+    "type:install": "npm run type:clean && flow-typed install",
+    "postinstall": "npm run type:install"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.0.17",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "styled-components": "^2.4.0",
+    "stylelint": "^8.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "^0.61.0",
+    "flow-typed": "^2.2.3",
+    "prettier": "^1.9.2",
+    "react-test-renderer": "^16.2.0",
+    "stylelint-config-idiomatic-order": "^5.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+[include]
+
+[ignore]
+<PROJECT_ROOT>/.vscode/*
+
+[libs]
+
+[lints]
+
+[options]
+module.system=haste
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+include_warnings=true
+
+[version]
